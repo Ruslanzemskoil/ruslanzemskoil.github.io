@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>AQua CHat | Чат</title>
+  </head>
+
+  <body class="p-lg-1" id="chat-block">
+
+    <div class="general-chat">
+        <div class="row no-gutters h-100">
+            <div class="panUser d-none d-lg-block col-3">
+                <div class="row profile-block mt-3 no-gutters">
+                    <div class="col-12">
+                        <div class="row no-gutters">
+                            <div class="col-3 text-center">
+                                <div class="my_avatar">
+                                    <img src="img/user.jpg">
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="row no-gutters">
+                                    <h6>Адам Серебров</h6>
+                                    <i class="fa fa-cog"></i>
+                                </div>
+                                <div class="row no-gutters">
+                                    <small>Онлайн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row search-block mx-2 mt-3 no-gutters">
+                    <div class="col-12">
+                        <i class="fa fa-search"></i>
+                        <input type="text" name="search" placeholder="Поиск...">
+                    </div>
+                </div>
+                <div class="row dialogList no-gutters">
+                    <div class="col-12">
+                        <div class="row no-gutters px-2">
+
+                            <div class="col-12 dialogCard passive ml-auto pt-1 mr-2 pb-2 mt-2">
+                                <div class="col-12 text-right">
+                                    <small>Только что</small>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 dialogImage text-center">
+                                        <img src="img/user2.jpg">
+                                        <i class="fa fa-circle"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="dialogUser">Chen Frank</h6>
+                                        <h6 class="dialogMessage">Ну вот как-то так выглядит карточка диалога :)</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 dialogCard passive ml-auto pt-1 mr-2 pb-2 mt-2">
+                                <div class="col-12 text-right">
+                                    <small>18:28</small>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 dialogImage text-center">
+                                        <img src="img/cat.jpg">
+                                        <i class="fa fa-circle"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="dialogUser">Dupont Pascal</h6>
+                                        <h6 class="dialogMessage">Выглядит очень даже круто, молодец!</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 dialogCard active ml-auto pt-1 mr-2 pb-2 mt-2">
+                                <div class="col-12 text-right">
+                                    <small>20:44</small>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 dialogImage text-center">
+                                        <img src="img/andrey.jpg">
+                                        <i class="fa fa-circle"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="dialogUser">Андрей Короновец</h6>
+                                        <h6 class="dialogMessage">Various versions have evolved</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 dialogCard passive ml-auto pt- mr-21 pb-2 mt-2">
+                                <div class="col-12 text-right">
+                                    <small>06:27</small>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 dialogImage text-center">
+                                        <img src="img/stepa.jpg">
+                                        <i class="fa fa-circle"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="dialogUser">Степан Вергер</h6>
+                                        <h6 class="dialogMessage">Супер! Ты - прирождённый дизайнер!</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 dialogCard passive ml-auto pt-1 mr-2 pb-2 mt-2">
+                                <div class="col-12 text-right">
+                                    <small>18:28</small>
+                                </div>
+                                <div class="row no-gutters">
+                                    <div class="col-3 dialogImage text-center">
+                                        <img src="img/user3.jpg">
+                                        <i class="fa fa-circle"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6 class="dialogUser">Виктория Киевская</h6>
+                                        <h6 class="dialogMessage">Хм... Не плохо, не плохо) Думаю у вашего проекта есть будущее.</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panCenter px-1 col-12 col-lg-6">
+                <div class="row no-gutters">
+                    <div class="col-12 cnt-block p-1 mt-1">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col-3">
+                                <i class="fa px-2 py-1 d-block d-lg-none fa-bars"></i> <!-- Открыть левое меню -->
+                            </div>
+                            <div class="col-6">
+                                <div class="cnt-title justify-content-center">
+                                    <!-- <img class="mr-3" src="img/andrey.jpg"> -->
+                                    <h6 class="mt-1">Андрей</h6>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="row no-gutters">
+                                    <i class="fa px-2 py-1 fa-plus ml-auto"></i> <!-- информация о чате-->
+                                    <i class="fa px-1 py-1 fa-link"></i> <!-- поделиться ссылкойтекущий чат -->
+                                    <i class="fa px-2 py-1 fa-info"></i> <!-- информация о чате -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-12 cnt-block listMessage p-2 mt-1">
+
+                        <div class="messageOther">
+                            <div class="messageAvatar mr-2">
+                                <img src="img/andrey.jpg">
+                            </div>
+                            <div>
+                                <div class="messageContent">
+                                    <h6>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</h6>
+                                </div>
+                                <div class="">
+                                    <small class="float-right m-1">20:38</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="messageYour">
+                            <div>
+                                <div class="messageContent">
+                                    <h6>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</h6>
+                                </div>
+                                <div class="">
+                                    <small class="float-left m-1">20:39</small>
+                                </div>
+                            </div>
+                            <div class="messageAvatar ml-2">
+                                <img src="img/user.jpg">
+                            </div>
+                        </div>
+
+                        <div class="messageOther">
+                            <div class="messageAvatar mr-2">
+                                <img src="img/andrey.jpg">
+                            </div>
+                            <div>
+                                <div class="messageContent">
+                                    <h6>It uses a dictionary!</h6>
+                                </div>
+                                <div class="">
+                                    <small class="float-right m-1">20:41</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="messageYour">
+                            <div>
+                                <div class="messageContent">
+                                    <h6>All the Lorem Ipsum generators on the Internet tend to repeat predefined</h6>
+                                </div>
+                                <div class="">
+                                    <small class="float-left m-1">20:43</small>
+                                </div>
+                            </div>
+                            <div class="messageAvatar ml-2">
+                                <img src="img/user.jpg">
+                            </div>
+                        </div>
+
+                        <div class="messageOther">
+                            <div class="messageAvatar mr-2">
+                                <img src="img/andrey.jpg">
+                            </div>
+                            <div>
+                                <div class="messageContent">
+                                    <h6>Various versions have evolved</h6>
+                                </div>
+                                <div class="">
+                                    <small class="float-right m-1">20:44</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="messageYour">
+                            <div>
+                                <div class="messageContent">
+                                    <h6>With desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
+                                </div>
+                                <div class="">
+                                    <small class="float-left m-1">20:44</small>
+                                </div>
+                            </div>
+                            <div class="messageAvatar ml-2">
+                                <img src="img/user.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-12 cnt-block p-2 mt-1">
+                        <div class="row align-items-center no-gutters">
+                            <div class="col-1 text-center">
+                                <i class="fa px-1 py-1 fa-link"></i> <!-- прикрепить документ -->
+                            </div>
+                            <div class="col-8 col-lg-9">
+                                <div class="cnt-title justify-content-center">
+                                    <input type="text" name="message" placeholder="Введите сообщение...">
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-lg-2">
+                                <div class="row no-gutters">
+                                    <i class="fa px-2 px-lg-3 py-1 fa-smile-o fa-lg ml-auto"></i> <!-- информация о чате -->
+                                    <i class="fa px-1 px-lg-3 py-1 fa-send fa-lg"></i> <!-- информация о чате -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="panSide d-none d-lg-block col-3">
+                <div class="row opt-panel mx-2 no-gutters">
+                    <div class="col-12 text-right">
+                        <div class="row no-gutters">
+                            <i class="fa fa-bell ml-auto"></i> <!-- уведомления -->
+                            <i class="fa fa-book"></i> <!-- справочник (в том числе и по командам) -->
+                            <i class="fa fa-power-off"></i> <!-- выход из чата -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row userList-panel no-gutters">
+                    <div class="col-12">
+                        <div class="row no-gutters">
+
+                            <div class="col-12 userList-account d-flex pt-2 my-1 pl-4 text-left">
+                                <div class="avatar-user">
+                                    <img src="img/user.jpg">
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <h6 class="ml-3">Адам Серебров</h6>
+                            </div>
+
+                            <div class="col-12 userList-account d-flex pt-2 my-1 pl-4 text-left">
+                                <div class="avatar-user">
+                                    <img src="img/cat.jpg">
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <h6 class="ml-3">Dupont Pascal</h6>
+                            </div>
+
+                            <div class="col-12 userList-account d-flex pt-2 my-1 pl-4 text-left">
+                                <div class="avatar-user">
+                                    <img src="img/stepa.jpg">
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <h6 class="ml-3">Степан Вергер</h6>
+                            </div>
+
+                            <div class="col-12 userList-account d-flex pt-2 my-1 pl-4 text-left">
+                                <div class="avatar-user">
+                                    <img src="img/andrey.jpg">
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <h6 class="ml-3">Андрей Короновец</h6>
+                            </div>
+
+                            <div class="col-12 userList-account d-flex pt-2 my-1 pl-4 text-left">
+                                <div class="avatar-user">
+                                    <img src="img/user3.jpg">
+                                    <i class="fa fa-circle"></i>
+                                </div>
+                                <h6 class="ml-3">Виктория Киевская</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script>
+        $(document).ready(function() {
+            var nice = $(".dialogList").niceScroll();
+            var nice = $(".listMessage").niceScroll();
+            var nice = $(".userList-panel").niceScroll();
+        });
+    </script>
+  </body>
+</html>

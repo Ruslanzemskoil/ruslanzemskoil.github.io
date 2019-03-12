@@ -1,0 +1,394 @@
+* {
+	font-family: "RobotoLight";
+	color: #ccc;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+html, body, .chatblock {
+  height: 100%;
+}
+
+body{
+	background: url(../img/DesktopBg.png) no-repeat center top fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.btn {
+	opacity: .9;
+}
+
+#wel-block {
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.content h1 {
+		font-size: 64px;
+		letter-spacing: 3px;
+		font-family: "RobotoBold";
+		color: #424242;
+		animation-delay: .5s;
+	}
+}
+
+#chat-title, #chat-subtitle {
+	color: #424242;
+}
+
+.content h5 {
+	animation-delay: .7s;
+}
+
+@media (max-width: 768px) {
+	.content button {
+		width: 100%;
+		margin: 3px 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.content button {
+		width: 70%;
+		margin: 3px 0;
+	}
+}
+
+.content img {
+	margin-top: -2px;
+	width: 24px;
+	margin-right: 5px;
+}
+
+#block-btn {
+	animation-delay: 1.5s;
+}
+
+.company-block {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	animation-delay: 2s;
+}
+
+.company-block small {
+	margin: 10px 20px;
+	display: inline-block;
+	background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#chat-block {
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+	.content button {
+		overflow: visible;
+	}
+}
+
+.general-chat {
+	background: rgba(0, 0, 0, 0.3);
+	height: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.panUser {
+	background: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	color: #ccc;
+}
+
+.profile-block img {
+	cursor: pointer;
+	border-radius: 50%;
+	width: 44px;
+	height: 44px;
+}
+
+.profile-block img:hover {
+	box-shadow: 0 0 10px #12BCB0;
+}
+
+.profile-block h6 {
+	cursor: pointer;
+	margin: 5px 0 0 0;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	width: 85%;
+}
+
+.profile-block i {
+	margin: 5px 0 0 10px;
+	border-radius: 50%;
+}
+
+.profile-block i:hover {
+	cursor: pointer;
+	text-shadow: 0 0 10px #12BCB0;
+}
+
+.search-block {
+	border-bottom: 1px solid #666;
+}
+
+.search-block div {
+	display: flex;
+}
+
+.search-block i {
+	margin: 15px 0 0 15px;
+}
+
+.search-block input {
+	border: none;
+	width: 100%;
+	color: #aaa;
+	padding: 7px 7px 7px 0;
+	margin: 5px 0 0 8px;
+	background: inherit;
+	animation: .5s;
+}
+
+.search-block input:focus {
+	color: #fff;
+}
+
+.panSide {
+	background: rgba(0, 0, 0, 0.6);
+	height: 100%;
+}
+
+.panCenter {
+	overflow: none;
+	height: 100%;
+}
+
+.cnt-block {
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.cnt-title {
+	display: flex;
+}
+
+.cnt-title img {
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+}
+
+.cnt-title h6 {
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 90%;
+}
+
+.panCenter i:hover {
+	cursor: pointer;
+	text-shadow: 0 0 10px #12BCB0;
+}
+
+.panCenter input {
+	width: 100%;
+	padding: 5px 0;
+	background: inherit;
+	border: none;
+	font-size: 15px;
+	border-bottom: 1px solid #666;
+}
+
+.panCenter input:focus {
+	border-bottom: 1px solid #ccc;
+}
+
+.opt-panel {
+	border-bottom: 1px solid #666;
+}
+
+.opt-panel i {
+	margin: 10px 0;
+	padding: 10px 11px;
+	border-radius: 50%;
+}
+
+.opt-panel i:hover {
+	cursor: pointer;
+	text-shadow: 0 0 5px #12BCB0;
+}
+
+.userList-panel {
+	height: 88%;
+	overflow: hidden;
+}
+
+.userList-panel img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+}
+
+.userList-panel img:hover {
+	box-shadow: 0 0 10px #12BCB0;
+}
+
+.userList-panel h6 {
+	font-size: 14px;
+	padding: 10px 0 0 0;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.avatar-user {
+	position: relative;
+}
+
+.avatar-user i {
+	position: absolute;
+	color: lightgreen;
+	right: -3px;
+	bottom: -3px;
+}
+
+.listMessage {
+	height: 80vh;
+	overflow: hidden;
+}
+
+.messageOther {
+	float: left;
+	display: inline-flex;
+	max-width: 70%;
+	margin: 10px;
+}
+
+.messageAvatar img {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.messageOther .messageContent {
+	background: linear-gradient(to bottom right, #ffa050, #ff0046);
+	padding: 10px 10px 6px 10px;
+	border-radius: 2px 15px 15px 15px;
+}
+
+.messageContent h6 {
+	font-size: 12px;
+	word-break: break-all;
+	font-family: "RobotoMedium";
+	cursor: pointer;
+}
+
+.messageYour {
+	float: right;
+	display: inline-flex;
+	max-width: 70%;
+	margin: 10px;
+}
+
+.messageYour .messageContent {
+	background: linear-gradient(to right, #ff004d, #9500cf);
+	padding: 10px 10px 6px 10px;
+	border-radius: 15px 2px 15px 15px;
+}
+
+.messageOther .messageContent small, .messageYour .messageContent small {
+	font-family: "RobotoBold";
+}
+
+.my_avatar {
+	position: relative;
+}
+
+.my_avatar i {
+	position: absolute;
+	color: lightgreen;
+	right: 14px;
+	bottom: -4px;
+}
+
+.my_avatar i:hover, .avatar-user i:hover {
+	text-shadow: 0 0 10px #12BCB0;
+}
+
+.dialogList {
+	height: 80%;
+	overflow: hidden;
+}
+
+.dialogCard {
+	border-radius: 10px;
+}
+
+.dialogCard.passive {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.dialogCard.active {
+	background: linear-gradient(to right, #ff004d, #9500cf);
+}
+
+.dialogImage {
+	position: relative;
+}
+
+.dialogImage img {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+}
+
+.dialogImage i {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	color: lightgreen;
+}
+
+.dialogUser {
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	word-break: break-all;
+	overflow: hidden;
+	height: 18px;
+}
+
+.dialogMessage {
+	cursor: pointer;
+	font-size: 11px;
+	max-width: 100%;
+	height: 25px;
+	word-break: keep-all;
+	overflow: hidden;
+}
+
+.dialogCard:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px #12BCB0;
+}
+
+.userList-account:hover {
+	cursor: pointer;
+	text-shadow: 0 0 10px #12BCB0;
+}
+
+
+.nicescroll-rails div {
+	background: linear-gradient(to bottom, #ff004d, #9500cf) !important;
+}
